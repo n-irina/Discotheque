@@ -1,14 +1,23 @@
-body{
-    background-image:url(fond.png);
-    background-size: cover;
-  }
-  h1, h2, h3{
-    text-align: center;
-  }
-  .container{
-    margin-top: 5%;
-  }
-  .my-custom-row a{
-    text-decoration: none;
-    color: black;
-  }
+body {
+  background-image: url(fond.png);
+  background-size: cover;
+}
+
+
+.container {
+  margin-top: 5%;
+}
+
+.my-custom-row {
+  text-align: center;
+}
+
+.my-custom-row a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.nav a {
+  color: black;
+}
