@@ -17,8 +17,8 @@ $albums = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="container bg-light border border-light-subtle">
     <div class="row my-custom-row">
-        <div class="col-8 border border-light-subtle align-self-center p-3"><strong>Is there a album you listen to that is missing? Help us completing our list!</strong></div>
-        <div class="col-4 border border-light-subtle align-self-center p-2"><a class="btn btn-success" href='add-singer.php'>Add an album</a></div>
+        <div class="col-8 border border-light-subtle align-self-center p-3"><strong>Is there an album you listen to that is missing? Help us completing our list!</strong></div>
+        <div class="col-4 border border-light-subtle align-self-center p-2"><a class="btn btn-success" href='add-album.php'>Add an album</a></div>
     </div>
     <div class="row my-custom-row">
         <?php

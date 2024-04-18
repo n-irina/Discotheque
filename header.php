@@ -19,7 +19,7 @@
         </a>
         <ul class="nav nav-underline justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="songs-list.php">Songs</a>
+            <a class="nav-link" href="songs-list.php">Songs</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="singers-list.php">Singers</a>
