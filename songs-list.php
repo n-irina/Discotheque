@@ -18,7 +18,7 @@ $songs = $statement->fetchAll(PDO::FETCH_ASSOC);
 <div class="container bg-light border border-light-subtle">
     <div class="row my-custom-row">
         <div class="col-8 border border-light-subtle align-self-center p-3"><strong>Is there a song you like that is missing? Help us completing our list!</strong></div>
-        <div class="col-4 border border-light-subtle align-self-center p-2"><a class="btn btn-success" href='add-singer.php'>Add a song</a></div>
+        <div class="col-4 border border-light-subtle align-self-center p-2"><a class="btn btn-success" href='add-song.php'>Add a song</a></div>
     </div>
     <div class="row my-custom-row">
         <?php

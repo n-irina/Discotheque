@@ -19,7 +19,7 @@ $songs = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 /*affiche */
 
-echo '<br><br><strong>'.$songs[0]['Name'].'</strong> is also a composer and here are all the songs he wrote:';
+echo '<br><br><strong>'.$songs[0]['Name'].'</strong> is also a composer and here are all the song(s) (s)he wrote:';
 echo '<div class="container bg-light border border-light-subtle">';
 echo '<div class="row my-custom-row">';
 echo '<div class="col-4 border border-light-subtle align-self-center p-3"><p><strong>Title</strong></p></div>';

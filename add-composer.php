@@ -13,10 +13,12 @@ include 'header.php';
   </div>
 </form>
 
+
+<span class="text-danger text-align-right">*Ce(s) champ(s) sont obligatoire(s)</span>
 <?php
 /*condition de formulaire rempli */
 if ($_POST != []) {
-  ?><span class="text-danger text-align-right">*Ce(s) champ(s) sont obligatoires</span><?php
+  
   
   /*connexion à la bdd */
   $pdo = new \PDO('mysql:local=localhost;dbname=discotheque', 'root', '');
