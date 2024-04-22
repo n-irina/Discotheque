@@ -68,6 +68,8 @@ if ($_POST) {
       $statement->bindParam(':date', $Date, \PDO::PARAM_STR);
       $statement->bindParam(':composerid', $composerid, \PDO::PARAM_INT);
       $statement->execute();
+
+      
   } else {
       /*Si le singer n'est pas un composer*/
       $request = "INSERT INTO discotheque.singer (Nickname, Firstname, Lastname, Date_of_birth) VALUES (:nickname, :firstname, :lastname, :date)";

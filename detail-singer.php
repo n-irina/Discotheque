@@ -22,5 +22,8 @@ $singer = $statement->fetch(PDO::FETCH_ASSOC);
 
 echo '<br><br><p class="text-center">The singer you\'re looking for is called <strong>'.$singer['Lastname'].' '.$singer['Firstname'].'</strong> better known as <i>'.$singer['Nickname'].'</i> born on '.$singer['Date_of_birth'].'.</p>';
 
+if($singer['Composer_Id']){
+    echo '<br><p class="text-center">This singer is also a composer';
+}
 include 'footer.php';
 ?>

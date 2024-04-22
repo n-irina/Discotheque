@@ -21,3 +21,15 @@ body {
 .nav a {
   color: black;
 }
+.form-select{
+  width:50%;
+  margin:2%;
+  display:flex;
+  justify-content: center;
+  
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
